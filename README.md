@@ -1,12 +1,23 @@
-# React + Vite
+# Mubtasim's Portfolio Website
+The goal of this portfolio is to provide a central hub where recruiters, collaborators, and peers can explore my work and get to know me better.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
 
-Currently, two official plugins are available:
+Click to view
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+Clean and responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Showcases projects with descriptions and links
+
+Contact section for networking opportunities
+
+## Let's Connect 
+
+I’m always open to networking, collaboration, and exciting opportunities in **Data Analytics** and **Data Science**.
+
+**Email:** [mubtasim.saadid02@gmail.com](mailto:mubtasim.saadid02@gmail.com)
+
+**LinkedIn:** [linkedin.com/in/mubtasimsaadid](https://www.linkedin.com/in/mubtasimsaadid/)
+
