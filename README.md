@@ -19,5 +19,5 @@ I’m always open to networking, collaboration, and exciting opportunities in **
 
 **Email:** [mubtasim.saadid02@gmail.com](mailto:mubtasim.saadid02@gmail.com)
 
-**LinkedIn:** [https://linkedin.com/in/mubtasimsaadid/]([url](https://www.linkedin.com/in/mubtasimsaadid/))
+**LinkedIn:** [https://www.linkedin.com/in/mubtasimsaadid/]([https://www.linkedin.com/in/mubtasimsaadid/])
 
