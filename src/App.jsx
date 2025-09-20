@@ -102,7 +102,7 @@ function App() {
           <div>
             <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7">
               {listProjects.map(project => (
-                <div class="bg-[#FFFFF0] border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up" data-aos-duration="2000" data-aos-delay={project.dad}>
+                <div class="bg-[#FFFFF0] border border-gray-200 rounded-lg shadow-sm" data-aos="fade-up" data-aos-duration="2000" data-aos-delay={project.dad}>
                   <div key={project.id} data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"> {/*data-aos-delay={project.dad}*/}
                     <div className="relative group rounded-t-lg overflow-hidden">
                         <img className="w-full h-70 transition-opacity duration-300 group-hover:opacity-50" src={project.gambar} alt="Projects Image" loading="lazy"/>
