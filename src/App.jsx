@@ -50,18 +50,22 @@ function App() {
 
       {/* About */}
       <div className="about mt-32 py-41" id="about">
-        <div class="animate__animated animate__fadeInUpBig animate__slow animate__delay-3s" >
-          <div className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-[#DBDBC3] rounded-2xl">
-            <p className="text-base/loose mb-6">
-              I'm <strong class="text-font-bold">Mubtasim Saadid Ahmed</strong>, a driven data enthusiast, passionate about transforming data into insights. With a strong foundation in analytics and a growing focus on data science, I aim to blend technical expertise with problem-solving skills to deliver impactful, data-driven solutions.
-            </p>
-            <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400"/>
-            <p className="text-base/loose mb-6" data-aos="fade-right" data-aos-duration="1000"> As a Computer Science and Engineering graduate from <a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener noreferrer" className="text-blue-600">BRAC University</a>, I aim to harness my technical expertise, analytical mindset, and leadership skills to craft innovative solutions and extract valuable insights. With the rise of digital transformation, I am actively strengthening my skills in Machine Learning and ETL processes by engaging in real-world projects, deepening my knowledge of data pipelines and visualization. </p>
-            <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" data-aos="fade-right" data-aos-duration="1000"/>
-            <p className="text-base/loose mb-6" data-aos="fade-right" data-aos-duration="1000">
-                In near future, I see myself as a well-rounded data professional who has progressed from analysis into a more strategic role, someone who not only works with data but also shapes how it’s used to drive key business decisions. My aim is to be in a position where I’m trusted to handle complex challenges, influence data-driven strategy, and continuously bring measurable value to the organization.
-            </p>
+        <div data-aos="zoom-in" data-aos-duration="4000"> <h1 className="text-center text-4xl/snug font-bold mb-5"> About Me </h1> </div>
+        <div>
+          <div data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-[#DBDBC3] rounded-2xl">
+              <p className="text-base/loose mb-6">
+                I'm <strong class="text-font-bold">Mubtasim Saadid Ahmed</strong>, a driven data enthusiast, passionate about transforming data into insights. With a strong foundation in analytics and a growing focus on data science, I aim to blend technical expertise with problem-solving skills to deliver impactful, data-driven solutions.
+              </p>
+              <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400"/>
+              <p className="text-base/loose mb-6" data-aos="fade-right" data-aos-duration="1000"> As a Computer Science and Engineering graduate from <a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener noreferrer" className="text-blue-600">BRAC University</a>, I aim to harness my technical expertise, analytical mindset, and leadership skills to craft innovative solutions and extract valuable insights. With the rise of digital transformation, I am actively strengthening my skills in Machine Learning and ETL processes by engaging in real-world projects, deepening my knowledge of data pipelines and visualization. </p>
+              <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" data-aos="fade-right" data-aos-duration="1000"/>
+              <p className="text-base/loose mb-6" data-aos="fade-right" data-aos-duration="1000">
+                  In near future, I see myself as a well-rounded data professional who has progressed from analysis into a more strategic role, someone who not only works with data but also shapes how it’s used to drive key business decisions. My aim is to be in a position where I’m trusted to handle complex challenges, influence data-driven strategy, and continuously bring measurable value to the organization.
+              </p>
           </div>
+          </div>
+          
         </div>
 
 
@@ -90,7 +94,7 @@ function App() {
         {/* Projects */}
         <div className="projects mt-32 py-10" id="projects">
           <div data-aos="zoom-in" data-aos-duration="1000"> <h1 className="text-center text-4xl/snug font-bold mb-5"> Projects </h1> </div>
-          <div data-aos="fade-right" data-aos-duration="1000"> 
+          <div data-aos="fade-left" data-aos-duration="1000"> 
             <p className="w-full text-base/loose text-center opacity-80">
               Explore a range of projects showcasing my expertise to uncover trends, automation, and optimizing workflows
             </p> 
@@ -99,7 +103,7 @@ function App() {
             <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7">
               {listProjects.map(project => (
                 <div class="bg-[#FFFFF0] border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up" data-aos-duration="2000" data-aos-delay={project.dad}>
-                  <div key={project.id} data-aos="fade-up" data-aos-duration="2000" data-aos-delay={project.dad}>
+                  <div key={project.id} data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"> {/*data-aos-delay={project.dad}*/}
                     <div className="relative group rounded-t-lg overflow-hidden">
                         <img className="w-full h-70 transition-opacity duration-300 group-hover:opacity-50" src={project.gambar} alt="Projects Image" loading="lazy"/>
                         <div className="absolute inset-0 flex items-center justify-center gap-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -164,7 +168,7 @@ function App() {
         </div>
       
         {/* Contact */}
-        
+
       </div>{/* About */}
     </>
   )
