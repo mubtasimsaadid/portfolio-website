@@ -138,7 +138,9 @@ function App() {
         <div className="contact mt-32 sm:p-10 p-0" id="contact">
           <div data-aos="zoom-in" data-aos-duration="1000"> <h1 className="text-4xl mb-4 font-bold text-center"> Contact </h1> </div>
           <div data-aos="fade-right" data-aos-duration="1000"> <p className="w-full text-base/loose text-center mb-10 opacity-80"> Connect with me </p> </div>
-          <form action="https://formsubmit.co/mubtasim.saadid02@email.com" method="POST" className="bg-[#DBDBC3] p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <form action="https://api.web3forms.com/submit" method="POST" className="bg-[#DBDBC3] p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            {/* Access Key*/}
+            <input type="hidden" name="access_key" value="a1d9ec07-6dbe-4f73-b0cd-7ba586437d5e"></input>
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
                 <label className="font-semibold"> Name </label>
