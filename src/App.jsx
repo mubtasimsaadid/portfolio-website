@@ -32,7 +32,7 @@ function App() {
               <a href="mailto:mubtasim.saadid02@gmail.com" className="bg-[#D2B48C] p-4 rounded-4xl hover:bg-[#DBDBC3] transition-transform duration-300 ease-linear hover:-translate-y-2"> 
                 <i class="ri-mail-line ri-lg"></i> 
               </a>
-              <a href="/public/assets/Mubtasim_Saadid_Ahmed_CV.pdf" target="_blank" rel="noopener noreferrer" className="bg-[#D2B48C] p-4 rounded-2xl hover:bg-[#DBDBC3] transition-transform duration-300 ease-linear hover:-translate-y-2"> 
+              <a href="/public/Mubtasim_Saadid_Ahmed_CV.pdf" target="_blank" rel="noopener noreferrer" className="bg-[#D2B48C] p-4 rounded-2xl hover:bg-[#DBDBC3] transition-transform duration-300 ease-linear hover:-translate-y-2"> 
                 Download CV <i class="ri-download-line"></i>
               </a>
               {/*
