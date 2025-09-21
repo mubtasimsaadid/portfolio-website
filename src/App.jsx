@@ -43,12 +43,12 @@ function App() {
             </div>
           </div>
         </div>
-        {/*transform hover:scale-105 transition-all duration-500 w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[400px] lg:h-[400px] mx-auto*/}
-        <div class="animate__animated animate__fadeInRight animate__slower animate__delay-2s">
-          <img src={DataImage.HeroImage} alt="Hero Image" className="transform hover:scale-105 transition-all duration-500 w-[400px] rounded-xl md:ml-auto"/>
+        {/*Portfolio Image*/}
+        <div class="animate__animated animate__fadeInRight animate__slower animate__delay-2s flex justify-center md:justify-end mt-10 md:mt-0">
+          <img src={DataImage.HeroImage} alt="Hero Image" className="w-full max-w-[400px] sm:max-w-[350px] md:max-w-[400px] rounded-xl transform hover:scale-105 transition-all duration-500"/>
         </div>
       </div>
-
+      {/*transform hover:scale-105 transition-all duration-500 w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[400px] lg:h-[400px] mx-auto */}
       {/* About */}
       <div className="about mt-32 py-41" id="about">
         <div data-aos="zoom-in" data-aos-duration="4000"> <h1 className="text-center text-4xl/snug font-bold mb-5"> About Me </h1> </div>
@@ -105,9 +105,9 @@ function App() {
               {listProjects.map(project => (
                 <div class="bg-[#FFFFF0] border border-gray-200 rounded-lg shadow-sm" data-aos="fade-up" data-aos-duration="2000" data-aos-delay={project.dad}>
                   <div key={project.id} data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"> {/*data-aos-delay={project.dad}*/}
-                    <div className="relative group rounded-t-lg overflow-hidden">
-                        <img className="w-full h-70 transition-opacity duration-300 group-hover:opacity-50" src={project.gambar} alt="Projects Image" loading="lazy"/>
-                        <div className="absolute inset-0 flex items-center justify-center gap-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="relative group rounded-t-lg overflow-hidden" tabIndex={0}>
+                        <img className="w-full h-70 transition-opacity duration-300 group-hover:opacity-50 group-focus:opacity-50" src={project.gambar} alt="Projects Image" loading="lazy"/>
+                        <div className="absolute inset-0 flex items-center justify-center gap-6 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-all duration-300">
                           <a href={project.githublink} target="_blank" rel="noopener noreferrer" className="bg-[#D2B48C] p-3 rounded-full shadow-lg hover:bg-gray-200 transition">
                               <i class="ri-github-fill ri-lg"></i>
                           </a>
