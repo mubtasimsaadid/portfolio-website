@@ -15,7 +15,7 @@ function App() {
           <div class="animate__animated animate__fadeInDown animate__delay-1s"><h1 className="text-5xl/tight font-bold mb-8"> <span className="">Hi,</span> I'm Mubtasim Saadid Ahmed </h1></div>
           <div class="animate__animated animate__fadeInLeft animate__slower animate__delay-2s">
             <p className="text-base/loose mb-8  opacity-85">
-            Blending expertise in Data Analysis, Business Intelligence, and Data Science to deliver actionable insights and innovative solutions. 
+            Data-driven problem solver with a passion for turning complexity into clarity. 
             Proficient in Python, SQL, Power BI, Google Looker Studio, and Excel, I specialize in building data-driven solutions that fuel smarter decisions and sustainable growth.
             Exploring different areas of analytics, including data cleaning, data optimization, reporting, and visualization, aiming to highlight what matters most.
             </p>
