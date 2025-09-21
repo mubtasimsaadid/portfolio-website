@@ -43,8 +43,9 @@ function App() {
             </div>
           </div>
         </div>
+        {/*transform hover:scale-105 transition-all duration-500 w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[400px] lg:h-[400px] mx-auto*/}
         <div class="animate__animated animate__fadeInRight animate__slower animate__delay-2s">
-          <img src={DataImage.HeroImage} alt="Hero Image" className="w-[400px] rounded-xl md:ml-auto" loading="lazy" />
+          <img src={DataImage.HeroImage} alt="Hero Image" className="transform hover:scale-105 transition-all duration-500 w-[400px] rounded-xl md:ml-auto"/>
         </div>
       </div>
 
@@ -92,7 +93,7 @@ function App() {
         {/* Skills */}
 
         {/* Projects */}
-        <div className="projects mt-32 py-10" id="projects">
+        <div className="projects mt-32 py-31" id="projects">
           <div data-aos="zoom-in" data-aos-duration="1000"> <h1 className="text-center text-4xl/snug font-bold mb-5"> Projects </h1> </div>
           <div data-aos="fade-left" data-aos-duration="1000"> 
             <p className="w-full text-base/loose text-center opacity-80">
@@ -135,35 +136,47 @@ function App() {
         {/* Projects */}
 
         {/* Contact */}
-        <div className="contact mt-32 sm:p-10 p-0" id="contact">
-          <div data-aos="zoom-in" data-aos-duration="1000"> <h1 className="text-4xl mb-4 font-bold text-center"> Contact </h1> </div>
-          <div data-aos="fade-right" data-aos-duration="1000"> <p className="w-full text-base/loose text-center mb-10 opacity-80"> Connect with me </p> </div>
-          <form action="https://api.web3forms.com/submit" method="POST" className="bg-[#DBDBC3] p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div className="contact mt-50 sm:p-10 p-0" id="contact">
+          <div data-aos="zoom-in" data-aos-duration="1000"> <h1 className="text-4xl mb-4 font-bold text-center tracking-wide"> Have a Question? <span className="text-3xl mb-4 font-bold text-center tracking-wide"> Let's Connect </span> </h1></div>
+          <div data-aos="fade-right" data-aos-duration="1000"> 
+            <p className="w-full text-base/loose py-4 mb-7 opacity-80"> 
+              For any inquiries regarding my work or additional information, please do not hesitate to contact me. I will respond at the earliest opportunity. I welcome discussions on new projects, strategic collaborations, and opportunities to contribute meaningfully to your vision.
+            </p> 
+          </div>
+          
+          {/* Form */}
+          <form action="https://api.web3forms.com/submit" method="POST" 
+          className="bg-[#DBDBC3] p-10 sm:w-fit w-full mx-auto rounded-md shadow-xl" 
+          autoComplete="off" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+            {/*  Gradient Design Box- <div className="absolute inset-0 rounded-2xl p-[2px] bg-gradient-to-r from-[#D2B48C] to-[#DBDBC3] pointer-events-none"></div>*/}  
+
             {/* Access Key*/}
             <input type="hidden" name="access_key" value="a1d9ec07-6dbe-4f73-b0cd-7ba586437d5e"></input>
             <div className="flex flex-col gap-6">
+
               <div className="flex flex-col gap-2">
-                <label className="font-semibold"> Name </label>
-                <input type="text" name="name" placeholder="Enter your name" className="border border-zinc-600 p-2 rounded-md" required/>
+                <label className="font-semibold text-zinc-700"> Name </label>
+                <input type="text" name="name" placeholder="Enter your name" className="border border-[#D2B48C] p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D2B48C] transition" required/>
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-semibold"> Email </label>
-                <input type="email" name="email" placeholder="Enter your email" className="border border-zinc-600 p-2 rounded-md" required/>
+                <label className="font-semibold text-zinc-700"> Email </label>
+                <input type="email" name="email" placeholder="Enter your email" className="border border-[#D2B48C] p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D2B48C] transition" required/>
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-semibold"> Phone Number </label>
-                <input type="number" name="number" placeholder="Enter your phone number" className="border border-zinc-600 p-2 rounded-md"/>
+                <label className="font-semibold text-zinc-700"> Phone Number </label>
+                <input type="tel" name="number" placeholder="Enter your phone number" className="border border-[#D2B48C] p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D2B48C] transition"/>
               </div>
 
               <div className="flex flex-col gap-2">
-                <label htmlFor="message" className="font-semibold"> Message </label>
-                <textarea name="message" id="message" cols="45" rows="5" placeholder="Write your query here..." className="border border-zinc-600 p-2 rounded-md"></textarea>
+                <label htmlFor="message" className="font-semibold text-zinc-700"> Message </label>
+                <textarea name="message" id="message" cols="45" rows="6" placeholder="Write your message here..." className="border border-[#D2B48C] p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D2B48C] transition"></textarea>
               </div>
 
               <div className="text-center">
-                <button type="submit" className="bg-[#D2B48C] hover:bg-[#d1ab79] p-3 rounded-lg w-full cursor-pointer"> Send Message </button>
+                <button type="submit" className="bg-[#D2B48C] text-zinc-800 font-semibold hover:bg-[#b89b6c] transition-all duration-300 p-3 rounded-lg w-full shadow-md cursor-pointer"> Send Message </button>
               </div>
             </div>
           </form>
