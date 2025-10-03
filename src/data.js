@@ -24,6 +24,7 @@ import Tools15 from "/assets/tools/js.png";
 import Tools16 from "/assets/tools/github.png";
 
 
+
 export const listTools = [
   {
     id: 1,
@@ -143,6 +144,8 @@ export const listTools = [
     dad: "1100",
   },
 
+
+
 ];
 
 import Project1 from "/assets/projects/project1.webp";
@@ -190,8 +193,8 @@ export const listProjects = [
     desciption: "RFM segmentation on sales data using SQL to identify customer value groups and support targeted marketing strategies.",
     tools: ["SQL", "DATABASE MANAGEMENT", "RFM SEGMENTATION"],
     dad: "400",
-    githublink: "https://tinyurl.com/ysjthu74",
-    liveLink: "https://tinyurl.com/s8387vwa"
+    githublink: "https://github.com/mubtasimsaadid/SQL-Projects/tree/a27dddbe09eda4840a8903552537bc8f0ee4eddb/RFM%20Segmentation",
+    liveLink: "https://github.com/mubtasimsaadid/SQL-Projects/tree/a27dddbe09eda4840a8903552537bc8f0ee4eddb/RFM%20Segmentation"
   },
   {
     id: 5,
