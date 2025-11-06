@@ -233,8 +233,8 @@ export const listProjects = [
     id: 8,
     gambar: Project8,
     name: "Trading Data Analysis",
-    desciption: "Automated SQL Trigger-based audit framework that tracks all data changes in patient and medical records, ensuring integrity and transparency across healthcare databases.",
-    tools: ["Python", "Data Analysis", "Data Cleaning", "Data Wrangling"],
+    desciption: "A Python-based Trading Performance Analytics system to process 59K+ transactions, uncover profitability patterns, and visualize trader efficiency using Pandas, NumPy, and Seaborn.",
+    tools: ["Python", "NumPy", "Pandas", "Seaborn", "Data Analysis", "Data Cleaning", "Data Wrangling"],
     dad: "400",
     githublink: "https://tinyurl.com/yxsutv76",
     liveLink: "https://tinyurl.com/3ztyxdhj"
