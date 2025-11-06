@@ -32,6 +32,9 @@ function App() {
               <a href="mailto:mubtasim.saadid02@gmail.com" className="bg-[#D2B48C] p-4 rounded-4xl hover:bg-[#DBDBC3] transition-transform duration-300 ease-linear hover:-translate-y-2"> 
                 <i class="ri-mail-line ri-lg"></i> 
               </a>
+              <a href="#projects" className="bg-[#D2B48C] p-4 rounded-2xl hover:bg-[#DBDBC3] transition-transform duration-300 ease-linear hover:-translate-y-2"> 
+                View Projects <i class="ri-scroll-to-bottom-line"></i>
+              </a>
               <a href="/Mubtasim_Saadid_Ahmed_CV.pdf" download="Mubtasim_Saadid_Ahmed_CV.pdf" className="bg-[#D2B48C] p-4 rounded-2xl hover:bg-[#DBDBC3] transition-transform duration-300 ease-linear hover:-translate-y-2"> 
                 Download CV <i class="ri-download-line"></i>
               </a>

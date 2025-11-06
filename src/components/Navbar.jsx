@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <div className="navbar py-7 flex items-center justify-between">
             <div className="logo">
-                <a href="#home"><h1 className="text-3xl font-bold text-black p-1 md:bg-transparent md:text-black"> Portfolio </h1> </a>
+                <a href="#home"><h1 className="text-3xl font-bold text-black p-1 md:bg-transparent md:text-black"> Mubtasim </h1> </a>
             </div>
 
             <ul

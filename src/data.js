@@ -154,6 +154,9 @@ import Project3 from "/assets/projects/project3.webp";
 import Project4 from "/assets/projects/project4.webp";
 import Project5 from "/assets/projects/project5.webp";
 import Project6 from "/assets/projects/project6.webp";
+import Project7 from "/assets/projects/project7.webp";
+import Project8 from "/assets/projects/project8.png";
+
 
 export const listProjects = [
   {
@@ -215,5 +218,25 @@ export const listProjects = [
     dad: "400",
     githublink: "https://tinyurl.com/msz62s5v",
     liveLink: "https://ibb.co.com/ksYyvvTf"
+  },
+  {
+    id: 7,
+    gambar: Project7,
+    name: "Healthcare Audit System - SQL Trigger",
+    desciption: "Automated SQL Trigger-based audit framework that tracks all data changes in patient and medical records, ensuring integrity and transparency across healthcare databases.",
+    tools: ["SQL", "SQL Trigger", "Automation", "Database Management"],
+    dad: "400",
+    githublink: "https://tinyurl.com/yc8ucv7a",
+    liveLink: "https://tinyurl.com/4vj2hrmx"
+  },
+    {
+    id: 8,
+    gambar: Project8,
+    name: "Trading Data Analysis",
+    desciption: "Automated SQL Trigger-based audit framework that tracks all data changes in patient and medical records, ensuring integrity and transparency across healthcare databases.",
+    tools: ["Python", "Data Analysis", "Data Cleaning", "Data Wrangling"],
+    dad: "400",
+    githublink: "https://tinyurl.com/yxsutv76",
+    liveLink: "https://tinyurl.com/3ztyxdhj"
   },
 ];
