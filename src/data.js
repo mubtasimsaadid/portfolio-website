@@ -155,7 +155,7 @@ import Project4 from "/assets/projects/project4.webp";
 import Project5 from "/assets/projects/project5.webp";
 import Project6 from "/assets/projects/project6.webp";
 import Project7 from "/assets/projects/project7.webp";
-import Project8 from "/assets/projects/project8.png";
+import Project8 from "/assets/projects/project8.webp";
 
 
 export const listProjects = [
