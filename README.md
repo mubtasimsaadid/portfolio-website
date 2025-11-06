@@ -3,7 +3,7 @@ The goal of this portfolio is to provide a central hub where recruiters, collabo
 
 ## Live Demo
 
-[Click to view](https://mubtasim.vercel.app/)
+[Click to view](https://insightsbymubtasim.vercel.app/)
 
 ## Features
 
