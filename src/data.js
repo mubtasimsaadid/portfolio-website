@@ -237,6 +237,6 @@ export const listProjects = [
     tools: ["Python", "NumPy", "Pandas", "Seaborn", "Data Analysis", "Data Cleaning", "Data Wrangling"],
     dad: "400",
     githublink: "https://tinyurl.com/yxsutv76",
-    liveLink: "https://tinyurl.com/3ztyxdhj"
+    liveLink: "https://tinyurl.com/yc8j5rj4"
   },
 ];
